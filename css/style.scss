@@ -207,11 +207,14 @@ header {
     width: 50%;
     height: 100%;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em 0;
     
     h2 {
       text-align: center;
       font-size: 2.5em;
-      margin: 1em 0;
       font-weight: bold;
       padding-left: 1em;
     }
@@ -221,6 +224,9 @@ header {
       max-width: 960px;
       margin: 0 auto;
       border-radius: 5px;
+      padding: 2em;
+      margin-top: 2em;
+
     }
   }
   .contact-right {
@@ -231,7 +237,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3em;
     
     h2 {
       font-size: 2.5em;

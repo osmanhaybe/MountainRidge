@@ -235,12 +235,22 @@ header ul li a:hover {
   width: 50%;
   height: 100%;
   background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3em 0;
 }
 
 #contact .contact-left h2 {
   text-align: center;
   font-size: 2.5em;
-  margin: 1em 0;
   font-weight: bold;
   padding-left: 1em;
 }
@@ -251,6 +261,8 @@ header ul li a:hover {
   max-width: 960px;
   margin: 0 auto;
   border-radius: 5px;
+  padding: 2em;
+  margin-top: 2em;
 }
 
 #contact .contact-right {
@@ -268,7 +280,6 @@ header ul li a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 3em;
 }
 
 #contact .contact-right h2 {
