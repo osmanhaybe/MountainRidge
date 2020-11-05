@@ -258,6 +258,7 @@ header ul li a:hover {
 }
 
 #contact .contact-left h2 {
+  font-size: 2.5em;
   margin: 1em;
   font-weight: bold;
 }
@@ -290,6 +291,7 @@ header ul li a:hover {
 }
 
 #contact .contact-right h2 {
+  font-size: 2.5em;
   font-weight: bold;
   margin: 1em;
 }
@@ -353,7 +355,43 @@ header ul li a:hover {
 
 #contact .contact-right #form .btn:hover {
   color: #000000;
-  background: #003D32;
+  background: #7ff1af;
+}
+
+/* Footer */
+.footer {
+  background-color: #102723;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+}
+
+.footer .social {
+  margin-bottom: 20px;
+}
+
+.footer .social a {
+  color: #fff;
+}
+
+.footer .social a:hover {
+  color: #7ff1af;
+}
+
+.footer p {
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (min-width: 1501px) {
