@@ -147,43 +147,50 @@ header ul li a:hover {
 
 #about {
   background-color: #102723;
-  height: 60vh;
+  height: 100%;
+  width: 100%;
 }
 
-#about h2 {
-  color: #fff;
-  font-size: 0.9rem;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 7em 0 1em 2em;
+#about .about-con {
+  width: 100%;
+  height: 100%;
+  padding: 3em;
 }
 
-#about p {
+#about .about-con h2 {
   color: #fff;
-  font-size: 3rem;
-  max-width: 960px;
+  font-size: 3em;
+  max-width: 1200px;
   margin: 0 auto;
-  padding-left: 1em;
+  padding: 0 0 1em 0;
+}
+
+#about .about-con p {
+  color: #fff;
+  font-size: 1.25em;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 1em 1em;
 }
 
 #services {
   background-color: #f3f4f4;
-  height: 50vh;
+  height: 100%;
   width: 100%;
   color: #003D32;
+  padding: 3em 2em;
 }
 
 #services h3 {
-  font-size: 2em;
+  font-size: 3em;
   max-width: 960px;
   margin: 0 auto;
-  padding: 4em 0 2em 1em;
 }
 
 #services .activities {
   max-width: 960px;
   margin: 0 auto;
-  margin-top: 2em;
+  padding-top: 2em;
 }
 
 #services .activities ul {
@@ -197,7 +204,7 @@ header ul li a:hover {
       -ms-flex-align: center;
           align-items: center;
   max-width: 960px;
-  margin-right: 2em;
+  padding-right: 1.5em;
 }
 
 #services .activities ul a {
@@ -217,22 +224,7 @@ header ul li a:hover {
   text-align: center;
   color: #003D32;
   padding-left: 2em;
-}
-
-#services .activities ul a.golf {
-  color: #003D32;
-}
-
-#services .activities ul a.mountain {
-  color: #003D32;
-}
-
-#services .activities ul a.ski {
-  color: #003D32;
-}
-
-#services .activities ul a.cabin {
-  color: #003D32;
+  margin-bottom: 1em;
 }
 
 #contact {
@@ -364,25 +356,21 @@ header ul li a:hover {
   background: #003D32;
 }
 
+@media (min-width: 1501px) {
+  body {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1500px) {
+  body {
+    font-size: 28px;
+  }
+}
+
 @media (max-width: 1024px) {
-  #services {
-    height: 40vh;
-  }
-  #services h3 {
-    padding-top: 2em;
-    padding-bottom: 0.5em;
-    margin-bottom: 1em;
-  }
-  #services ul {
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-bottom: 0.5em;
-  }
-  #about {
-    height: 40vh;
-  }
-  #about p {
-    font-size: 2em;
+  body {
+    font-size: 20px;
   }
 }
 
@@ -479,20 +467,35 @@ header ul li a:hover {
     margin-left: 0.75em;
     margin-right: 0.75em;
   }
-  body #about {
-    height: 70vh;
-    padding-top: 0;
+}
+
+@media (max-width: 450px) {
+  body {
+    font-size: 15px;
   }
-  body #about p {
-    font-size: 2.5em;
-    margin-bottom: 1em;
+}
+
+@media (max-width: 350px) {
+  body {
+    font-size: 14px;
   }
-  body #services {
-    height: 50vh;
-    padding-top: 0;
+  .activities {
+    width: 100%;
   }
-  body #services h3 {
-    padding-top: 3em;
+  .activities ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .activities ul li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 50%;
+            flex: 0 50%;
+    margin-top: 1.5em;
+  }
+  .activities a {
+    padding: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
