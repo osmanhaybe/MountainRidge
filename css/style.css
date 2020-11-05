@@ -275,6 +275,7 @@ header ul li a:hover {
   width: 50%;
   height: 100%;
   background-color: #DADBDB;
+  padding: 3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -282,25 +283,23 @@ header ul li a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3em;
 }
 
 #contact .contact-right h2 {
   font-size: 2.5em;
   font-weight: bold;
-  margin: 1em;
+  text-align: center;
 }
 
 #contact .contact-right #form {
-  width: 75%;
-  height: 75%;
-  background-color: #fff;
-  border-radius: 5px;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,36 +315,32 @@ header ul li a:hover {
           align-items: center;
   max-width: 960px;
   margin: 0 auto;
+  margin-top: 2em;
   text-align: center;
 }
 
 #contact .contact-right #form .form-component {
-  margin: 0;
   margin-bottom: 10px;
-  padding-bottom: 10px;
-  position: relative;
-  padding-left: 0;
-  padding-right: 0;
+  width: 100%;
 }
 
 #contact .contact-right #form .form-component label {
-  display: inline-block;
+  display: block;
   margin-bottom: 4px;
 }
 
 #contact .contact-right #form .form-component input, #contact .contact-right #form .form-component textarea {
+  width: 100%;
   border: 2px solid #003D32;
   border-radius: 4px;
   font-family: inherit;
   font-size: 14px;
-  display: block;
   padding: 10px;
-  width: 100%;
   margin-bottom: 10px;
 }
 
 #contact .contact-right #form .btn {
-  width: 25%;
+  width: 100%;
   border-radius: 20px;
   color: #fff;
   background-color: #102723;
@@ -374,7 +369,8 @@ header ul li a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 150px;
+  height: 100%;
+  padding: 1.5em;
 }
 
 .footer .social {
@@ -396,25 +392,25 @@ header ul li a:hover {
 
 @media (min-width: 1501px) {
   body {
-    font-size: 30px;
+    font-size: 23px;
   }
 }
 
 @media (max-width: 1500px) {
   body {
-    font-size: 28px;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 1024px) {
   body {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 @media (max-width: 768px) {
   body {
-    font-size: 18px;
+    font-size: 16px;
   }
   body a {
     font-size: 1em;
@@ -509,13 +505,13 @@ header ul li a:hover {
 
 @media (max-width: 450px) {
   body {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
 @media (max-width: 350px) {
   body {
-    font-size: 14px;
+    font-size: 13px;
   }
   .activities {
     width: 100%;

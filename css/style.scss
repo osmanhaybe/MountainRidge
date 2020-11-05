@@ -236,51 +236,46 @@ header {
     width: 50%;
     height: 100%;
     background-color: #DADBDB;
+    padding: 3em;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    padding: 3em;
     
     h2 {
       font-size: 2.5em;
       font-weight: bold;
-      margin: 1em
+      text-align: center;
     }
 
    #form {
-      width: 75%;
-      height: 75%;
-      background-color: #fff;
-      border-radius: 5px;
+      height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       max-width: 960px;
       margin: 0 auto;
+      margin-top: 2em;
       text-align: center;
       
       .form-component {
-        margin:0;
         margin-bottom: 10px;
-        padding-bottom: 10px;
-        position: relative;
-        padding-left: 0;
-        padding-right:0;
+        width: 100%;
 
         label {
-        display: inline-block;
+        display: block;
         margin-bottom: 4px;
         }
 
-        input, textarea {
+        input, textarea{
+          width: 100%;
           border: 2px solid #003D32;
           border-radius: 4px;
           font-family: inherit;
           font-size:14px;
-          display: block;
           padding: 10px;
-          width: 100%;
           margin-bottom: 10px;
           
           }
@@ -288,7 +283,7 @@ header {
       }
     
       .btn {
-        width: 25%;
+        width: 100%;
         border-radius: 20px;
         color: #fff;
         background-color: #102723;
@@ -316,7 +311,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  height: 100%;
+  padding: 1.5em;
   .social {
     margin-bottom: 20px;
 
@@ -338,25 +334,25 @@ header {
 
 @media(min-width: 1501px){
   body{
-    font-size: 30px;
+    font-size: 23px;
   }
 
 }
 @media(max-width: 1500px){
   body {
-    font-size: 28px;
+    font-size: 20px;
   }
 }
 @media (max-width: 1024px) {
   body {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 
 @media(max-width:768px){
  body {
-   font-size: 18px;
+   font-size: 16px;
    a {
      font-size: 1em;
    }
@@ -462,13 +458,13 @@ header {
 
 @media(max-width: 450px) {
   body {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 @media(max-width: 350px) {
 
   body {
-    font-size: 14px;
+    font-size: 13px;
   }
   .activities {
     width: 100%;
