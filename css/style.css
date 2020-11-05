@@ -147,23 +147,23 @@ header ul li a:hover {
 #about .about-con {
   width: 100%;
   height: 100%;
-  padding: 3em;
+  padding: 3em 0;
 }
 
 #about .about-con h2 {
   color: #fff;
-  font-size: 3em;
-  max-width: 1200px;
+  font-size: 2.5em;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 0 0 1em 0;
+  padding-left: 1em;
 }
 
 #about .about-con p {
   color: #fff;
-  font-size: 1.25em;
-  max-width: 1200px;
+  font-size: 1.5em;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 0 0 1em 1em;
+  padding: 2.5em;
 }
 
 #services {
@@ -171,19 +171,20 @@ header ul li a:hover {
   height: 100%;
   width: 100%;
   color: #003D32;
-  padding: 3em 2em;
+  padding: 3em 0;
 }
 
 #services h3 {
-  font-size: 3em;
+  font-size: 2.5em;
   max-width: 960px;
   margin: 0 auto;
+  padding-left: 1em;
 }
 
 #services .activities {
   max-width: 960px;
   margin: 0 auto;
-  padding-top: 2em;
+  padding: 2em;
 }
 
 #services .activities ul {
@@ -234,26 +235,14 @@ header ul li a:hover {
   width: 50%;
   height: 100%;
   background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
 }
 
 #contact .contact-left h2 {
+  text-align: center;
   font-size: 2.5em;
-  margin: 1em;
+  margin: 1em 0;
   font-weight: bold;
+  padding-left: 1em;
 }
 
 #contact .contact-left #map {
@@ -279,9 +268,6 @@ header ul li a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 3em;
 }
 
@@ -422,9 +408,15 @@ header ul li a:hover {
     width: 100%;
     height: 50%;
   }
+  body #contact .contact-left h2 {
+    text-align: left;
+  }
   body #contact .contact-right {
     width: 100%;
     height: 50%;
+  }
+  body #contact .contact-right h2 {
+    text-align: left;
   }
   body #contact .contact-right #form {
     height: 80%;
