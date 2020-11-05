@@ -229,7 +229,7 @@ header {
       margin: 0 auto;
       border-radius: 5px;
     }
-}
+  }
   .contact-right {
     width: 50%;
     height: 100%;
@@ -240,70 +240,70 @@ header {
     justify-content: center;
     
     h2 {
-      font-size: 2.5em
+      font-size: 2.5em;
       font-weight: bold;
       margin: 1em
     }
 
-    #form {
-    width: 75%;
-    height: 75%;
-    background-color: #fff;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 960px;
-    margin: 0 auto;
-    text-align: center;
-    
-    .form-component {
-      margin:0;
-      margin-bottom: 10px;
-      padding-bottom: 10px;
-      position: relative;
-      padding-left: 0;
-      padding-right:0;
-
-      label {
-       display: inline-block;
-       margin-bottom: 4px;
-      }
-
-      input, textarea {
-        border: 2px solid #003D32;
-        border-radius: 4px;
-        font-family: inherit;
-        font-size:14px;
-        display: block;
-        padding: 10px;
-        width: 100%;
+   #form {
+      width: 75%;
+      height: 75%;
+      background-color: #fff;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 960px;
+      margin: 0 auto;
+      text-align: center;
+      
+      .form-component {
+        margin:0;
         margin-bottom: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        padding-left: 0;
+        padding-right:0;
+
+        label {
+        display: inline-block;
+        margin-bottom: 4px;
+        }
+
+        input, textarea {
+          border: 2px solid #003D32;
+          border-radius: 4px;
+          font-family: inherit;
+          font-size:14px;
+          display: block;
+          padding: 10px;
+          width: 100%;
+          margin-bottom: 10px;
+          
+          }
         
       }
-      
-    }
-  
-    .btn {
-      width: 25%;
-      border-radius: 20px;
-      color: #fff;
-      background-color: #102723;
-      border: none;
-      padding: 1em;
+    
+      .btn {
+        width: 25%;
+        border-radius: 20px;
+        color: #fff;
+        background-color: #102723;
+        border: none;
+        padding: 1em;
 
-    }
+      }
 
-    .btn:hover {
-      color: #000000;
-      background: #003D32;
-    }
+      .btn:hover {
+        color: #000000;
+        background: #003D32;
+      }
+   }
   }
-}
-
 
 }  
+
 @media(min-width: 1501px){
   body{
     font-size: 30px;
